@@ -1,0 +1,26 @@
+{
+  "name": "SnapKit",
+  "version": "5.0.1",
+  "license": "MIT",
+  "summary": "Harness the power of auto layout with a simplified, chainable, and compile time safe syntax.",
+  "homepage": "https://github.com/SnapKit/SnapKit",
+  "authors": {
+    "Robert Payne": "robertpayne@me.com"
+  },
+  "social_media_url": "http://twitter.com/robertjpayne",
+  "source": {
+    "git": "https://github.com/SnapKit/SnapKit.git",
+    "tag": "5.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "swift_version": "5.0",
+  "vendored_frameworks": "SnapKit.xcframework",
+  "ios": {
+    "public_header_files": "SnapKit.xcframework/ios-arm64/*/Headers/*.h",
+    "source_files": "SnapKit.xcframework/ios-arm64/*/Headers/*.h"
+  }
+}
